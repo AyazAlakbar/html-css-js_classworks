@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.news{
+    width: 354px;
+    height: 550px;
+    border: ridge;
+    position: relative;
+    top: 100px;
+    left: 300px;
+    
+}
+
+.news .imgs img{
+width: 100%;
+height: 250px;
+
+position: absolute;
+}
+
+.news .imgs .date{
+width: 60px;
+height: 50px;
+border: none;
+position: absolute;
+background-color: rgb(37, 121, 121);
+justify-content: center;
+text-align: center;
+opacity: 0.7;
+color: white;
+
+}
+
+.news .imgs .time{
+width: 60px;
+height: 25px;
+border: none;
+position: absolute;
+background-color: rgb(73, 77, 77);
+justify-content: center;
+text-align: center;
+opacity: 0.7;
+color: white;
+top: 50px;
+}
+
+
+
+.news .box2 {
+    width: 330px;
+    height: 250px;
+    position: absolute;
+    top: 280px;
+    left: 20px;
+    color: rgb(69, 69, 185);
+
+}
+
+.news .box5{
+    width: 100%;
+    height: 40px;
+    border-top: 1px solid gray;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    background-color: rgb(235, 243, 252);
+    display: flex;
+    justify-content: space-around;
+    color: rgb(105, 105, 105);
+
+}
+
+
+.news .box5 .like{
+    border-right: 1px solid gray;
+    width: 118px;
+    justify-content: center;
+text-align: center;
+}
+.news .box5 .dislike{
+    border-right: 1px solid gray;
+    width: 118px;
+    justify-content: center;
+text-align: center;
+}
+
+.news .box5 .view{
+    border: none;
+    width: 118px;
+    justify-content: center;
+text-align: center;
+}
+
+.news .box5 .like:hover{
+    background-color: rgb(54, 168, 54);
+    color: white;
+}
+
+.news .box5 .dislike:hover{
+    background-color: red;
+    color: white;
+}
+
+
