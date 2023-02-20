@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+}
+
+/* 
+body{
+    padding: 20px;
+}
+.animation{
+    width: 80px;
+  height: 50px;
+  border-radius: 5px;
+  text-align: center;
+  color: aliceblue;
+  background-color: lightgreen;
+  position: relative;
+  
+  animation-duration: 3s;
+  animation-delay: 0;
+  animation-name: test;
+  animation-delay: 0.5s;
+  animation-fill-mode: backwards;
+  
+  
+}
+@keyframes test{
+0%  {background-color:greenyellow; left:0px; top:0px;transform: rotate(0deg);}
+15%  { left:0px; top:0px;transform: rotate(20deg);}
+50%  { left:600px; top:0px;transform: rotate(0deg);}
+
+100% {background-color:green; left:0px; top:0px;transform: rotate(-360deg);}
+} */
+
+i{
+        font-size: 100px;
+        animation-name: test;
+        position: relative;
+    
+        animation-duration: 15s;
+        animation-delay: 0;
+        animation-name: test;
+        animation-delay: 0.5s;
+        animation-fill-mode: backwards;
+}
+
+@keyframes test{
+    0%      { left:-200px; top:0px;}
+    15%     { left:1600px; top:0px;}
+    50%     { left:1600px; top:500px; }
+    
+    75%     {left:-200px; top:500px;transform: rotateY(180deg);}
+    100%    { right: -200; top: 0px;}
+    } 
