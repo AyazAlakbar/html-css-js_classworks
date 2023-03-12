@@ -9,5 +9,4 @@ document.querySelectorAll(".box").forEach(div=>{
 })
 
 
-   // 17:14-e bax
 
